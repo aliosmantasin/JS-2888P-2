@@ -1,0 +1,61 @@
+* img {
+  width: 100px !important;
+}
+
+.cartHead {
+  margin-bottom: 10px;
+  background-color: #416fd3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+h6 {
+  /* background-color: rgb(236, 235, 234); */
+  padding: 0;
+  margin: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+p {
+  padding: 10px;
+}
+
+div {
+  padding: 5px;
+  justify-content: center;
+}
+
+i {
+  font-size: 1.2rem;
+  margin-right: 5px;
+  color: #416fd3;
+}
+
+
+.cardBody.hidden {
+  height: 0;
+}
+
+.cardBody {
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  /* transition:  0.4s ease-in-out; */
+}
+
+.toggleArrow {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 0.7s;
+}

@@ -1,0 +1,20 @@
+.card {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color: #d1def9;
+    padding: 0 !important;
+    margin: 5px;
+
+
+}
+
+.cardHead {
+  background-color: #416fd3;
+  color: white;
+  padding: 5px 7px 0 7px;
+}
+
+
+
+.cardBody {
+    padding: 0 7px 0 7px;
+}
